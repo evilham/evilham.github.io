@@ -1,0 +1,18 @@
+extends: base.j2
+default_block: article
+
+menu:
+  -
+    name: "Home"
+    page: "https://evilham.com"
+  -
+    name: "Github"
+    page: "https://github.com/evilham"
+  -
+    name: "C# lessons"
+    page: "https://evilham.github.io/csharp-lessons/"
+
+l10n:
+  search: "Search"
+  otherlangs: "Other languages"
+  notinthislang: "Not available in English"
